@@ -1,0 +1,23 @@
+{
+  "name": "project-6-static-node-express",
+  "version": "1.0.0",
+  "description": "personal profile page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackibolt/project-6-static-node-express.git"
+  },
+  "author": "Jacki Bolt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackibolt/project-6-static-node-express/issues"
+  },
+  "homepage": "https://github.com/jackibolt/project-6-static-node-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

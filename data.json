@@ -1,0 +1,93 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Random Quote Generator",
+            "description": "project 1 description",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://jackibolt.github.io/project-1/",
+            "github_link": "https://github.com/jackibolt/project-1/",
+            "img_urls": [
+                "/static/imgs/proj_0/celery_dessert.png",
+                "/static/imgs/proj_0/work_a_little.png",
+                "/static/imgs/proj_0/work_square.png"            
+            ]
+        },
+        {
+            "id": "1",
+            "project_name": "Paginated Student Directory",
+            "description": "project 2 description",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://jackibolt.github.io/project-2-pagination-filter/",
+            "github_link": "https://github.com/jackibolt/project-2-pagination-filter/",
+            "img_urls": [
+                "/static/imgs/proj_1/student_directory.png",
+                "/static/imgs/proj_1/student_search.png",
+                "/static/imgs/proj_1/students_pages.png"            
+            ]
+        },
+        {
+            "id": "2",
+            "project_name": "Interactive Registration Form",
+            "description": "project 3 description",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "JQuery"
+            ],
+            "live_link": "https://jackibolt.github.io/project-3-interactive-form/",
+            "github_link": "https://github.com/jackibolt/project-3-interactive-form/",
+            "img_urls": [
+                "/static/imgs/proj_2/form_cc_validation.png",
+                "/static/imgs/proj_2/form_validation.png",
+                "/static/imgs/proj_2/registration_form.png"            
+            ]
+        },
+        {
+            "id": "3",
+            "project_name": "Word Guessing Game Show",
+            "description": "project 4 description",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "JQuery"
+            ],
+            "live_link": "https://jackibolt.github.io/project-4-game-show-app/",
+            "github_link": "https://github.com/jackibolt/project-4-game-show-app/",
+            "img_urls": [
+                "/static/imgs/proj_3/lose_screen.png",
+                "/static/imgs/proj_3/phrase_game.png",
+                "/static/imgs/proj_3/start_screen.png",
+                "/static/imgs/proj_3/win_screen.png"            
+            ]
+        },
+        {
+            "id": "4",
+            "project_name": "Employee Directory Using API",
+            "description": "project 5 description",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "JQuery"
+            ],
+            "live_link": "https://jackibolt.github.io/project-5-api-request/",
+            "github_link": "https://github.com/jackibolt/project-5-api-request/",
+            "img_urls": [
+                "/static/imgs/proj_4/employee_directory.png",
+                "/static/imgs/proj_4/employee_modal.png",
+                "/static/imgs/proj_4/employee_search.png"          
+            ]
+        }
+    ]
+}
