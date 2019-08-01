@@ -1,6 +1,6 @@
 
 body {
-  background-color:  #e1d4e4 ;
+  background-color:  #e6e6ff ;
 }
 
 h1,h2,h3,h4,h5,p{
@@ -108,7 +108,7 @@ a:hover{
 
 .portfolio-intro p{
   border-bottom: 1px solid #eaeaea;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .portfolio-index{
@@ -118,7 +118,12 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
-    /* width: 250px; */
+    border: black 2px solid;
+  }
+
+  .portfolio-index .thumbnail:hover{
+    opacity: .6;
+    transition: .5s;  
   }
 
   .portfolio-index a{
@@ -152,4 +157,8 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.cell-index {
+  text-align: center;
 }

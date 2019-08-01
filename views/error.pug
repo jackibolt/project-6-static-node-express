@@ -3,4 +3,6 @@ extends layout
 block content
     article.grid-container.portfolio-intro
         a(href='/') ← Back
-        h3 The project you're looking for does not exist. 
+        h3= error.message
+        h5=`Error Status: ${error.status}.`
+        p= error.stack

@@ -19,7 +19,7 @@
         },
         {
             "id": "1",
-            "project_name": "Paginated Student Directory",
+            "project_name": "Student Directory",
             "description": "This project creates searchable directory of student information, dynamically displays only 10 profiles per page and creates pagination links. ",
             "technologies": [
                 "HTML",
@@ -36,7 +36,7 @@
         },
         {
             "id": "2",
-            "project_name": "Interactive Registration Form",
+            "project_name": "Interactive Registration",
             "description": "This interactive registration form includes data validation and dynamic question fields.",
             "technologies": [
                 "HTML",
@@ -75,7 +75,7 @@
         },
         {
             "id": "4",
-            "project_name": "Employee Directory Using API",
+            "project_name": "Employee Directory",
             "description": "This searchable employee directory pulls information from a public API, and includes a modal with additional information for each individual employee.",
             "technologies": [
                 "HTML",

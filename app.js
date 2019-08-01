@@ -30,16 +30,19 @@ app.get('/project/:id', (req, res) => {
     res.render('project', {currentProject});
 })
 
-// handles 404 error
+// handles errors
 app.use((req, res, next) => {
-    const err = new Error('Page Not Found');
+    const err = new Error("Shucks. There's been an error.");
     err.status = 404;
-    console.log(`Uh oh! ${err.status} Error. ${err.message}`);
     next(err);
 })
-
+  
 app.use(( err, req, res, next ) => {
     res.locals.error = err;
+    res.status = err.status;
+    if (res.status === undefined) {
+        err.status = 500;
+    }
     res.render('error');
   });
 
