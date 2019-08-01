@@ -114,6 +114,7 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    width: 250px;
   }
 
   .portfolio-index a{

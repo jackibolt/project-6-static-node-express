@@ -3,7 +3,7 @@
         {
             "id": "0",
             "project_name": "Random Quote Generator",
-            "description": "project 1 description",
+            "description": "This project generates and displays a random quote every 20 seconds, or when the user clicks through.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -12,15 +12,15 @@
             "live_link": "https://jackibolt.github.io/project-1/",
             "github_link": "https://github.com/jackibolt/project-1/",
             "img_urls": [
+                "/static/imgs/proj_0/work_square.png",
                 "/static/imgs/proj_0/celery_dessert.png",
-                "/static/imgs/proj_0/work_a_little.png",
-                "/static/imgs/proj_0/work_square.png"            
+                "/static/imgs/proj_0/work_a_little.png"           
             ]
         },
         {
             "id": "1",
             "project_name": "Paginated Student Directory",
-            "description": "project 2 description",
+            "description": "This project creates searchable directory of student information, dynamically displays only 10 profiles per page and creates pagination links. ",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -29,7 +29,7 @@
             "live_link": "https://jackibolt.github.io/project-2-pagination-filter/",
             "github_link": "https://github.com/jackibolt/project-2-pagination-filter/",
             "img_urls": [
-                "/static/imgs/proj_1/student_directory.png",
+                "/static/imgs/proj_1/student_directory_square.png",
                 "/static/imgs/proj_1/student_search.png",
                 "/static/imgs/proj_1/students_pages.png"            
             ]
@@ -37,7 +37,7 @@
         {
             "id": "2",
             "project_name": "Interactive Registration Form",
-            "description": "project 3 description",
+            "description": "This interactive registration form includes data validation and dynamic question fields.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -47,6 +47,7 @@
             "live_link": "https://jackibolt.github.io/project-3-interactive-form/",
             "github_link": "https://github.com/jackibolt/project-3-interactive-form/",
             "img_urls": [
+                "/static/imgs/proj_2/form_validation_square.png",
                 "/static/imgs/proj_2/form_cc_validation.png",
                 "/static/imgs/proj_2/form_validation.png",
                 "/static/imgs/proj_2/registration_form.png"            
@@ -55,7 +56,7 @@
         {
             "id": "3",
             "project_name": "Word Guessing Game Show",
-            "description": "project 4 description",
+            "description": "Users guess letters from a randomly generated phrase, racing to guess before their lives have been used up. ",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -65,8 +66,9 @@
             "live_link": "https://jackibolt.github.io/project-4-game-show-app/",
             "github_link": "https://github.com/jackibolt/project-4-game-show-app/",
             "img_urls": [
-                "/static/imgs/proj_3/lose_screen.png",
+                "/static/imgs/proj_3/phrase_game_square.png",
                 "/static/imgs/proj_3/phrase_game.png",
+                "/static/imgs/proj_3/lose_screen.png",
                 "/static/imgs/proj_3/start_screen.png",
                 "/static/imgs/proj_3/win_screen.png"            
             ]
@@ -74,7 +76,7 @@
         {
             "id": "4",
             "project_name": "Employee Directory Using API",
-            "description": "project 5 description",
+            "description": "This searchable employee directory pulls information from a public API, and includes a modal with additional information for each individual employee.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -84,6 +86,7 @@
             "live_link": "https://jackibolt.github.io/project-5-api-request/",
             "github_link": "https://github.com/jackibolt/project-5-api-request/",
             "img_urls": [
+                "/static/imgs/proj_4/employee_modal_square.png",
                 "/static/imgs/proj_4/employee_directory.png",
                 "/static/imgs/proj_4/employee_modal.png",
                 "/static/imgs/proj_4/employee_search.png"          

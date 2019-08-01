@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/static', express.static(__dirname+'/public'));
 app.set('view engine', 'pug');
 
-// set index route
+// sets index route
 app.get('/', (req, res) => {
     res.render('index', {projects});
 });
@@ -24,7 +24,7 @@ app.get('/about', (req, res) => {
 
 
 // sets dynamic projects route
-app.get('/projects/:id', (req, res) => {
+app.get('/project/:id', (req, res) => {
     const projectId = req.params.id;
     const currentProject = projects[projectId];
     res.render('project', {currentProject});
