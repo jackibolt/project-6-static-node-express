@@ -34,7 +34,6 @@ app.get('/project/:id', (req, res) => {
 app.use((req, res, next) => {
     const err = new Error("Shucks. There's been an error.");
     err.status = 404;
-    console.log(`${err.message} Error Status: ${err.status}`);
     next(err);
 })
 
