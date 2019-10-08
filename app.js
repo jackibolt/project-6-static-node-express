@@ -48,6 +48,6 @@ app.use(( err, req, res, next ) => {
   });
 
 // starts the local server
-app.listen(3000, () => {
-    console.log('The application is running on localhost:3000!');
+app.listen(3001, () => {
+    console.log('The application is running on localhost:3001!');
 });
